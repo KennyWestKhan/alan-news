@@ -2,9 +2,11 @@
 
 ## Project setup
 
+get [Alan SDK Key](https://studio.alan.app/embed/news-app)
+get [News api key](https://newsapi.org/account)
+
 ```
-get Alan SDK Key from (https://studio.alan.app/embed/news-app)
-get news api key from (https://newsapi.org/account)
+create .env file
 ```
 
 ```
