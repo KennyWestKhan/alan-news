@@ -6,6 +6,10 @@ get [Alan SDK Key](https://studio.alan.app/embed/news-app)
 get [News api key](https://newsapi.org/account)
 
 ```
+create .env file
+```
+
+```
 add to environment variables VUE_APP_ALAN_KEY and VUE_APP_NEWS_KEY
 ```
 
