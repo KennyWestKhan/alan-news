@@ -1,36 +1,41 @@
 {
-  "name": "news",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
-  },
-  "dependencies": {
-    "@alan-ai/alan-sdk-web": "^1.8.5",
-    "@material-ui/core": "^4.11.1",
-    "axios": "^0.21.0",
-    "classnames": "^2.2.6",
-    "core-js": "^3.6.5",
-    "serve": "^11.3.2",
-    "vue": "^2.6.11",
-    "vue-router": "^3.2.0",
-    "vuesax": "^4.0.1-alpha.25",
-    "vuex": "^3.4.0",
-    "words-to-numbers": "^1.5.1"
-  },
-  "devDependencies": {
-    "@iconify-icons/mdi-light": "^1.1.0",
-    "@iconify/vue": "^1.0.6",
-    "@vue/cli-plugin-babel": "~4.5.0",
-    "@vue/cli-plugin-eslint": "~4.5.0",
-    "@vue/cli-plugin-router": "~4.5.0",
-    "@vue/cli-plugin-vuex": "~4.5.0",
-    "@vue/cli-service": "~4.5.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
-  }
+	"name": "news",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"lint": "vue-cli-service lint",
+		"dev": "react-scripts start",
+		"start": "serve -s build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject",
+		"heroku-postbuild": "npm run build"
+	},
+	"dependencies": {
+		"@alan-ai/alan-sdk-web": "^1.8.5",
+		"@material-ui/core": "^4.11.1",
+		"axios": "^0.21.0",
+		"classnames": "^2.2.6",
+		"core-js": "^3.6.5",
+		"serve": "^11.3.2",
+		"vue": "^2.6.11",
+		"vue-router": "^3.2.0",
+		"vuesax": "^4.0.1-alpha.25",
+		"vuex": "^3.4.0",
+		"words-to-numbers": "^1.5.1"
+	},
+	"devDependencies": {
+		"@iconify-icons/mdi-light": "^1.1.0",
+		"@iconify/vue": "^1.0.6",
+		"@vue/cli-plugin-babel": "~4.5.0",
+		"@vue/cli-plugin-eslint": "~4.5.0",
+		"@vue/cli-plugin-router": "~4.5.0",
+		"@vue/cli-plugin-vuex": "~4.5.0",
+		"@vue/cli-service": "~4.5.0",
+		"babel-eslint": "^10.1.0",
+		"eslint": "^6.7.2",
+		"eslint-plugin-vue": "^6.2.2",
+		"vue-template-compiler": "^2.6.11"
+	}
 }
