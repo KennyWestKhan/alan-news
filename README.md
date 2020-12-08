@@ -2,11 +2,8 @@
 
 ## Project setup
 
-```
-
 get [Alan SDK Key](https://studio.alan.app/embed/news-app)
-get news api key from (https://newsapi.org/account)
-```
+get [News api key](https://newsapi.org/account)
 
 ```
 add to environment variables VUE_APP_ALAN_KEY and VUE_APP_NEWS_KEY
