@@ -3,7 +3,8 @@
 ## Project setup
 
 ```
-get Alan SDK Key from (https://studio.alan.app/embed/news-app)
+
+get [Alan SDK Key](https://studio.alan.app/embed/news-app)
 get news api key from (https://newsapi.org/account)
 ```
 
