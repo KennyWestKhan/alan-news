@@ -5,7 +5,8 @@
 	"scripts": {
 		"serve": "vue-cli-service serve",
 		"build": "vue-cli-service build",
-		"lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "start": "node server.js" 
 	},
 	"dependencies": {
 		"@alan-ai/alan-sdk-web": "^1.8.5",
@@ -13,7 +14,9 @@
 		"axios": "^0.21.0",
 		"classnames": "^2.2.6",
 		"core-js": "^3.6.5",
+		"express": "^4.17.1",
 		"serve": "^11.3.2",
+		"serve-static": "^1.14.1",
 		"vue": "^2.6.11",
 		"vue-router": "^3.2.0",
 		"vuesax": "^4.0.1-alpha.25",
